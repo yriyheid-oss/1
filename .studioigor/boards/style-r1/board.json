@@ -1,0 +1,330 @@
+{
+  "title": "Sunken Chime — Style Round 1",
+  "subtitle": "Flooded clockwork city rooftops · 4 visual directions",
+  "question": "Which visual direction fits Sunken Chime best?",
+  "mode": "single",
+  "options": [
+    {
+      "id": "copper-dawn",
+      "title": "Copper Dawn Mist",
+      "text": "Rule: Dry high rooftops glow with verdigris & warm lantern amber; flooded canals sink into cool teal mist. Mood: nostalgic dawn after rain. Shape: Venetian gables, arched bridges, exposed gears. Color: verdigris, wet slate, amber lantern gold.",
+      "palette": [
+        "#3f7d70",
+        "#26353b",
+        "#8b5a3c",
+        "#f4a949",
+        "#ff5733"
+      ],
+      "tags": [
+        "Browser 3D",
+        "dawn mist",
+        "bloom",
+        "verdigris"
+      ],
+      "pros": [
+        "warm vs cold depth separation",
+        "great rooftop vs canal readability"
+      ],
+      "cons": [
+        "needs careful fog tuning so distant jumps stay readable"
+      ],
+      "media": [
+        {
+          "src": "../../refs/copper-dawn/steam-6290bee5.jpg",
+          "caption": "Warm interior amber light vs shadowed wooden surfaces",
+          "source": "https://store.steampowered.com/app/1332010/",
+          "credit": "BlueTwelve Studio",
+          "license": "© BlueTwelve Studio — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/copper-dawn/steam-fe737353.jpg",
+          "caption": "Warm sign pools glowing over wet alley cobblestones",
+          "source": "https://store.steampowered.com/app/1332010/",
+          "credit": "BlueTwelve Studio",
+          "license": "© BlueTwelve Studio — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/copper-dawn/steam-5ae88371.jpg",
+          "caption": "Pipe-balancing cat silhouette above misty vertical buildings",
+          "source": "https://store.steampowered.com/app/1332010/",
+          "credit": "BlueTwelve Studio",
+          "license": "© BlueTwelve Studio — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/copper-dawn/openverse-f199354c.jpg",
+          "caption": "Cool teal morning canal mist with warm amber distant lights",
+          "source": "https://www.flickr.com/photos/53359531@N04/43994230560",
+          "credit": "Maurizio Fecchio",
+          "license": "CC BY-NC-ND 2.0",
+          "generated": false
+        },
+        {
+          "src": "../../refs/copper-dawn/openverse-91b4a6ed.jpg",
+          "caption": "Misty stone canal bridge with warm window light reflections",
+          "source": "https://www.flickr.com/photos/53359531@N04/45586058105",
+          "credit": "Maurizio Fecchio",
+          "license": "CC BY-NC-ND 2.0",
+          "generated": false
+        },
+        {
+          "src": "../../refs/copper-dawn/openverse-c7381c32.jpg",
+          "caption": "Oxidized brass cogs & warm metallic reflections",
+          "source": "https://www.flickr.com/photos/29225114@N08/2914135677",
+          "credit": "Sergei Golyshev (AFK during workdays)",
+          "license": "CC BY 2.0",
+          "generated": false
+        }
+      ]
+    },
+    {
+      "id": "moonlit-brass",
+      "title": "Moonlit Chiaroscuro Brass",
+      "text": "Rule: Cold indigo moonlight in the air vs sharp golden searchlights and chimes on wet brass. Mood: tense nocturnal stealth. Shape: tall clock towers, sharp shadow pools, glowing cat rim light. Color: indigo, gunmetal, moon blue, spotlight gold.",
+      "palette": [
+        "#101729",
+        "#1e2738",
+        "#4a6a8a",
+        "#7eb2dd",
+        "#ffc845"
+      ],
+      "tags": [
+        "Browser 3D",
+        "night stealth",
+        "high contrast",
+        "fresnel"
+      ],
+      "pros": [
+        "searchlight cones and bell ripples pop instantly"
+      ],
+      "cons": [
+        "dark shadows need strong rim light on cat silhouette"
+      ],
+      "media": [
+        {
+          "src": "../../refs/moonlit-brass/steam-7196a5ec.jpg",
+          "caption": "Tiny hero lit by warm pool inside cavernous shadow",
+          "source": "https://store.steampowered.com/app/424840/",
+          "credit": "Tarsier Studios",
+          "license": "© Tarsier Studios — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/moonlit-brass/steam-b2b87954.jpg",
+          "caption": "Crisp vertical shadow cages and dramatic key lighting",
+          "source": "https://store.steampowered.com/app/424840/",
+          "credit": "Tarsier Studios",
+          "license": "© Tarsier Studios — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/moonlit-brass/openverse-46833ea8.jpg",
+          "caption": "Single warm lamp cutting through deep nocturnal mist",
+          "source": "https://www.flickr.com/photos/93212986@N03/15176167245",
+          "credit": "Casey Hugelfink",
+          "license": "CC BY 2.0",
+          "generated": false
+        },
+        {
+          "src": "../../refs/moonlit-brass/openverse-19ada97f.jpg",
+          "caption": "Night fog over canal bridge with isolated golden lamp pools",
+          "source": "https://www.flickr.com/photos/65583387@N04/22453128638",
+          "credit": "dlerps",
+          "license": "CC BY-ND 2.0",
+          "generated": false
+        },
+        {
+          "src": "../../refs/moonlit-brass/steam-3af491ae.jpg",
+          "caption": "High-contrast monochrome fog & stark silhouette readability",
+          "source": "https://store.steampowered.com/app/304430/",
+          "credit": "Playdead",
+          "license": "© Playdead — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/moonlit-brass/steam-4856c8ac.jpg",
+          "caption": "Sharp volumetric searchlight cone sweeping dark environment",
+          "source": "https://store.steampowered.com/app/304430/",
+          "credit": "Playdead",
+          "license": "© Playdead — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/moonlit-brass/steam-f9169bea.jpg",
+          "caption": "Submerged dark ruins with eerie directional light beams",
+          "source": "https://store.steampowered.com/app/304430/",
+          "credit": "Playdead",
+          "license": "© Playdead — moodboard only",
+          "generated": false
+        }
+      ]
+    },
+    {
+      "id": "sunlit-ruins",
+      "title": "Ghibli Sunlit Ruins",
+      "text": "Rule: Ancient brass wears moss and sunlit salt; cold Watch-Owl steel contrasts warm terracotta roofs. Mood: bittersweet morning wonder. Shape: rounded terracotta tiles, copper domes, mossy waterwheels. Color: cream, terracotta, cerulean, copper.",
+      "palette": [
+        "#ede3cc",
+        "#c96a4b",
+        "#558c7d",
+        "#5c9ec9",
+        "#d93b58"
+      ],
+      "tags": [
+        "Browser 3D",
+        "stylized",
+        "sunlit",
+        "terracotta"
+      ],
+      "pros": [
+        "distinct from dark cyberpunk",
+        "warm inviting rooftops"
+      ],
+      "cons": [
+        "searchlights read softer in bright daylight"
+      ],
+      "media": [
+        {
+          "src": "../../refs/sunlit-ruins/steam-a9b41a3b.jpg",
+          "caption": "Crisp sunlit Mediterranean whitewash vs warm earth tones",
+          "source": "https://store.steampowered.com/app/493200/",
+          "credit": "Tequila Works, QLOC",
+          "license": "© Tequila Works, QLOC — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/sunlit-ruins/steam-46245560.jpg",
+          "caption": "Clean stylized stone tower overlooking bright cerulean canal",
+          "source": "https://store.steampowered.com/app/493200/",
+          "credit": "Tequila Works, QLOC",
+          "license": "© Tequila Works, QLOC — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/sunlit-ruins/steam-142f8713.jpg",
+          "caption": "Painterly Ghibli-like cliffside vegetation and layered depth",
+          "source": "https://store.steampowered.com/app/1608230/",
+          "credit": "Wishfully",
+          "license": "© Wishfully — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/sunlit-ruins/steam-20d09190.jpg",
+          "caption": "Bright turquoise morning sky framing small companion silhouettes",
+          "source": "https://store.steampowered.com/app/1608230/",
+          "credit": "Wishfully",
+          "license": "© Wishfully — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/sunlit-ruins/openverse-c654bc29.jpg",
+          "caption": "Bell tower rising over warm red-tile Venetian roofs",
+          "source": "https://www.flickr.com/photos/57673765@N00/8531147796",
+          "credit": "chericbaker",
+          "license": "CC BY-NC-SA 2.0",
+          "generated": false
+        },
+        {
+          "src": "../../refs/sunlit-ruins/openverse-2648c4bc.jpg",
+          "caption": "Layered sunlit terracotta rooftop ridges & chimneys",
+          "source": "https://www.flickr.com/photos/15011735@N00/1992535812",
+          "credit": "jehr",
+          "license": "CC BY-NC-SA 2.0",
+          "generated": false
+        },
+        {
+          "src": "../../refs/sunlit-ruins/openverse-aec51aee.jpg",
+          "caption": "Moss-overgrown wooden & iron waterwheel in green shade",
+          "source": "https://www.flickr.com/photos/75612671@N03/8893008562",
+          "credit": "enneafive",
+          "license": "CC BY 2.0",
+          "generated": false
+        }
+      ]
+    },
+    {
+      "id": "clockwork-diorama",
+      "title": "Engraved Blueprint Diorama",
+      "text": "Rule: Clean matte-shaded clockmaker miniature with crisp edge lines and glowing amber sound ripples. Mood: tactile horological precision. Shape: bevelled slabs, gear teeth, clean silhouettes. Color: slate, ivory, brushed brass, ember orange.",
+      "palette": [
+        "#1f242d",
+        "#d9d2c5",
+        "#c89b4f",
+        "#6a8d92",
+        "#ff6b35"
+      ],
+      "tags": [
+        "Browser 3D",
+        "stylized",
+        "high FPS",
+        "crisp edges"
+      ],
+      "pros": [
+        "100% platforming readability and blazing WebGL performance"
+      ],
+      "cons": [
+        "less gritty wet-alley atmosphere"
+      ],
+      "media": [
+        {
+          "src": "../../refs/clockwork-diorama/steam-0dc8d734.jpg",
+          "caption": "Minimalist architectural tower with sharp silhouette read",
+          "source": "https://store.steampowered.com/app/1927720/",
+          "credit": "ustwo games",
+          "license": "© ustwo games — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/clockwork-diorama/steam-6fd7b3d6.jpg",
+          "caption": "Clean pastel-ivory stone slabs rising from misty clouds",
+          "source": "https://store.steampowered.com/app/1927720/",
+          "credit": "ustwo games",
+          "license": "© ustwo games — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/clockwork-diorama/steam-6b5d04bd.jpg",
+          "caption": "Floating isometric geometry and atmospheric depth separation",
+          "source": "https://store.steampowered.com/app/1927720/",
+          "credit": "ustwo games",
+          "license": "© ustwo games — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/clockwork-diorama/steam-ea384401.jpg",
+          "caption": "Crisp inked outline edges on stylized matte surfaces",
+          "source": "https://store.steampowered.com/app/757310/",
+          "credit": "Shedworks",
+          "license": "© Shedworks — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/clockwork-diorama/openverse-c992a548.jpg",
+          "caption": "Precision brushed brass and steel gear train layering",
+          "source": "https://www.flickr.com/photos/29225114@N08/2778223048",
+          "credit": "Sergei Golyshev (AFK during workdays)",
+          "license": "CC BY-NC-SA 2.0",
+          "generated": false
+        },
+        {
+          "src": "../../refs/clockwork-diorama/steam-89b48a65.jpg",
+          "caption": "Compact waterfront town diorama with clean tile roofs",
+          "source": "https://store.steampowered.com/app/1291340/",
+          "credit": "Oskar Stålberg",
+          "license": "© Oskar Stålberg — moodboard only",
+          "generated": false
+        },
+        {
+          "src": "../../refs/clockwork-diorama/steam-ab6cbc76.jpg",
+          "caption": "Stepped canal architecture over dark reflective water",
+          "source": "https://store.steampowered.com/app/1291340/",
+          "credit": "Oskar Stålberg",
+          "license": "© Oskar Stålberg — moodboard only",
+          "generated": false
+        }
+      ]
+    }
+  ]
+}

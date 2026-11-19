@@ -1,0 +1,154 @@
+{
+  "title": "Ghibli Sunlit Ruins",
+  "text": "Rule: Ancient brass wears moss and sunlit salt; cold Watch-Owl steel contrasts warm terracotta roofs. Mood: bittersweet morning wonder. Shape: rounded terracotta tiles, copper domes, mossy waterwheels. Color: cream, terracotta, cerulean, copper.",
+  "palette": [
+    "#ede3cc",
+    "#c96a4b",
+    "#558c7d",
+    "#5c9ec9",
+    "#d93b58"
+  ],
+  "tags": [
+    "Browser 3D",
+    "stylized",
+    "sunlit",
+    "terracotta"
+  ],
+  "items": [
+    {
+      "file": "steam-a9b41a3b.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493200/ss_47a4cdf4645d9a4dbae225b10547c69a41078061.1920x1080.jpg?t=1793656193",
+      "page": "https://store.steampowered.com/app/493200/",
+      "title": "RiME — screenshot 1",
+      "credit": "Tequila Works, QLOC",
+      "license": "© Tequila Works, QLOC — moodboard only",
+      "api": "steam",
+      "query": "RiME",
+      "generated": false,
+      "note": "Crisp sunlit Mediterranean whitewash vs warm earth tones",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "a9b41a3bb1d48144d6435f0e40c235614cc53dbd"
+    },
+    {
+      "file": "steam-46245560.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493200/ss_d3ec35ee54fe642e507f6e996a4e77e13f2e2b0d.1920x1080.jpg?t=1793656193",
+      "page": "https://store.steampowered.com/app/493200/",
+      "title": "RiME — screenshot 2",
+      "credit": "Tequila Works, QLOC",
+      "license": "© Tequila Works, QLOC — moodboard only",
+      "api": "steam",
+      "query": "RiME",
+      "generated": false,
+      "note": "Clean stylized stone tower overlooking bright cerulean canal",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "4624556098f2c61f0ea3a2462db367701f797a1b"
+    },
+    {
+      "file": "steam-142f8713.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1608230/ss_73b0b2da6ced61844f4ad07e97613ebbb2c7bd65.1920x1080.jpg?t=1772728759",
+      "page": "https://store.steampowered.com/app/1608230/",
+      "title": "Planet of Lana — screenshot 1",
+      "credit": "Wishfully",
+      "license": "© Wishfully — moodboard only",
+      "api": "steam",
+      "query": "Planet of Lana",
+      "generated": false,
+      "note": "Painterly Ghibli-like cliffside vegetation and layered depth",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "142f8713179b95f3c1c33dc457613a70fd78d2c4"
+    },
+    {
+      "file": "steam-20d09190.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1608230/ss_6f4a2ba6f5946be25ef2cd5cc9b8bf932b9178ff.1920x1080.jpg?t=1772728759",
+      "page": "https://store.steampowered.com/app/1608230/",
+      "title": "Planet of Lana — screenshot 2",
+      "credit": "Wishfully",
+      "license": "© Wishfully — moodboard only",
+      "api": "steam",
+      "query": "Planet of Lana",
+      "generated": false,
+      "note": "Bright turquoise morning sky framing small companion silhouettes",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "20d09190aae862bc5aafe047ee6ead0364e7a9ba"
+    },
+    {
+      "file": "openverse-c654bc29.jpg",
+      "url": "https://live.staticflickr.com/8386/8531147796_883b4b51a0_b.jpg",
+      "page": "https://www.flickr.com/photos/57673765@N00/8531147796",
+      "title": "Castello rooftops",
+      "credit": "chericbaker",
+      "license": "CC BY-NC-SA 2.0",
+      "api": "openverse",
+      "query": "venice terracotta rooftops",
+      "generated": false,
+      "note": "Bell tower rising over warm red-tile Venetian roofs",
+      "w": 1024,
+      "h": 768,
+      "sha1": "c654bc29e24df87dfa1e6c59ca2bf3d7a9d38405",
+      "source": "flickr",
+      "attribution": "\"Castello rooftops\" by chericbaker is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/."
+    },
+    {
+      "file": "openverse-2648c4bc.jpg",
+      "url": "https://live.staticflickr.com/2201/1992535812_c088cdf300_b.jpg",
+      "page": "https://www.flickr.com/photos/15011735@N00/1992535812",
+      "title": "Terracotta rooftops",
+      "credit": "jehr",
+      "license": "CC BY-NC-SA 2.0",
+      "api": "openverse",
+      "query": "venice terracotta rooftops",
+      "generated": false,
+      "note": "Layered sunlit terracotta rooftop ridges & chimneys",
+      "w": 1024,
+      "h": 768,
+      "sha1": "2648c4bcd9f95d7ed029703518b0841b84cc5ba8",
+      "source": "flickr",
+      "attribution": "\"Terracotta rooftops\" by jehr is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/."
+    },
+    {
+      "file": "openverse-aec51aee.jpg",
+      "url": "https://live.staticflickr.com/2825/8893008562_23e1a0780e_b.jpg",
+      "page": "https://www.flickr.com/photos/75612671@N03/8893008562",
+      "title": "Taken back by Nature",
+      "credit": "enneafive",
+      "license": "CC BY 2.0",
+      "api": "openverse",
+      "query": "moss watermill",
+      "generated": false,
+      "note": "Moss-overgrown wooden & iron waterwheel in green shade",
+      "w": 1024,
+      "h": 768,
+      "sha1": "aec51aee786eeae0d32e55b43f6582c47cdc8fc1",
+      "source": "flickr",
+      "attribution": "\"Taken back by Nature\" by enneafive is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/."
+    }
+  ],
+  "pros": [
+    "distinct from dark cyberpunk",
+    "warm inviting rooftops"
+  ],
+  "cons": [
+    "searchlights read softer in bright daylight"
+  ],
+  "dropped": [
+    {
+      "file": "steam-8c1954ad.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3358240/762d06ef92dc5dfeb890908fbc1011bad1085a02/ss_762d06ef92dc5dfeb890908fbc1011bad1085a02.1920x1080.jpg?t=1791722386",
+      "sha1": "8c1954ad244168a0d3cf8826b1c0f92e127c54ab"
+    },
+    {
+      "file": "steam-f3f474f5.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3358240/dcde676a95f9d36c7d5ba1777e0110d20739ea0b/ss_dcde676a95f9d36c7d5ba1777e0110d20739ea0b.1920x1080.jpg?t=1791722386",
+      "sha1": "f3f474f563e0f3f5ebe2c2c0601f5988051da308"
+    },
+    {
+      "file": "steam-9a5258fe.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493200/ss_dd88436f595c93aa326f7bc9bf1dbda9b0d296f3.1920x1080.jpg?t=1793656193",
+      "sha1": "9a5258fed98ae2ea3a4510923b51c63f0595c65e"
+    }
+  ]
+}

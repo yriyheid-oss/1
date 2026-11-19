@@ -1,0 +1,220 @@
+@import "tailwindcss";
+
+[data-graphics-level="low"] *,
+[data-graphics-level="low"] *::before,
+[data-graphics-level="low"] *::after {
+  transition: none !important;
+  animation: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+.card-3d-tilt {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+@keyframes brass-shimmer-sweep {
+  0%, 62% {
+    transform: translateX(-140%) skewX(-22deg);
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.45;
+  }
+  88%, 100% {
+    transform: translateX(240%) skewX(-22deg);
+    opacity: 0;
+  }
+}
+
+@keyframes clockwork-gear-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes clockwork-gear-counter {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes radar-sweep-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes reward-scroll-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes panel-glide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(8px) scale(0.985);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes fish-pop-pulse {
+  0% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.18);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fish-float-up {
+  0% {
+    opacity: 0;
+    transform: translateY(4px) scale(0.9);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0px) scale(1.06);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-14px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+}
+
+@keyframes hud-badge-pop {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+[data-graphics-level="high"] .brass-shimmer,
+[data-graphics-level="ultra"] .brass-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+[data-graphics-level="high"] .brass-shimmer::after,
+[data-graphics-level="ultra"] .brass-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 45%;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 240, 200, 0) 0%,
+    rgba(255, 240, 200, 0.42) 50%,
+    rgba(255, 240, 200, 0) 100%
+  );
+  animation: brass-shimmer-sweep 5.2s ease-in-out infinite;
+}
+
+[data-graphics-level="high"] .luxury-panel-sheen,
+[data-graphics-level="ultra"] .luxury-panel-sheen {
+  position: relative;
+}
+
+[data-graphics-level="high"] .luxury-panel-sheen::before,
+[data-graphics-level="ultra"] .luxury-panel-sheen::before {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 0;
+  height: 1px;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    rgba(244, 169, 73, 0) 0%,
+    rgba(255, 224, 150, 0.72) 50%,
+    rgba(244, 169, 73, 0) 100%
+  );
+}
+
+[data-graphics-level="high"] .clockwork-spin,
+[data-graphics-level="ultra"] .clockwork-spin {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: clockwork-gear-spin 26s linear infinite;
+}
+
+[data-graphics-level="high"] .clockwork-counter-spin,
+[data-graphics-level="ultra"] .clockwork-counter-spin {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: clockwork-gear-counter 34s linear infinite;
+}
+
+[data-graphics-level="high"] .radar-sweep,
+[data-graphics-level="ultra"] .radar-sweep {
+  transform-origin: 52px 52px;
+  animation: radar-sweep-rotate 4.4s linear infinite;
+}
+
+[data-graphics-level="medium"] .modal-panel-enter,
+[data-graphics-level="high"] .modal-panel-enter,
+[data-graphics-level="ultra"] .modal-panel-enter {
+  animation: panel-glide-in 210ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reward-scroll-toast {
+  animation: reward-scroll-in 260ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.fish-pop {
+  animation: fish-pop-pulse 380ms ease-out;
+}
+
+.fish-gain-float {
+  animation: fish-float-up 1050ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hud-badge-enter {
+  animation: hud-badge-pop 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brass-shimmer::after,
+  .clockwork-spin,
+  .clockwork-counter-spin,
+  .radar-sweep,
+  .modal-panel-enter,
+  .reward-scroll-toast,
+  .fish-pop,
+  .fish-gain-float,
+  .hud-badge-enter {
+    animation: none !important;
+  }
+}

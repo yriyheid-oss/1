@@ -1,0 +1,6 @@
+{
+  "name": "Sunken Chime",
+  "description": "A third-person stealth-parkour cat adventure across the flooded rooftops of a sunken clockwork city.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

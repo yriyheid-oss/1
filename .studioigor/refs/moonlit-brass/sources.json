@@ -1,0 +1,151 @@
+{
+  "title": "Moonlit Chiaroscuro Brass",
+  "text": "Rule: Cold indigo moonlight in the air vs sharp golden searchlights and chimes on wet brass. Mood: tense nocturnal stealth. Shape: tall clock towers, sharp shadow pools, glowing cat rim light. Color: indigo, gunmetal, moon blue, spotlight gold.",
+  "palette": [
+    "#101729",
+    "#1e2738",
+    "#4a6a8a",
+    "#7eb2dd",
+    "#ffc845"
+  ],
+  "tags": [
+    "Browser 3D",
+    "night stealth",
+    "high contrast",
+    "fresnel"
+  ],
+  "items": [
+    {
+      "file": "steam-7196a5ec.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/8942672a817424d426e65ade0253e428a3f449ee/ss_8942672a817424d426e65ade0253e428a3f449ee.1920x1080.jpg?t=1773135169",
+      "page": "https://store.steampowered.com/app/424840/",
+      "title": "Little Nightmares — screenshot 1",
+      "credit": "Tarsier Studios",
+      "license": "© Tarsier Studios — moodboard only",
+      "api": "steam",
+      "query": "Little Nightmares",
+      "generated": false,
+      "note": "Tiny hero lit by warm pool inside cavernous shadow",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "7196a5ec16219514224e73e9916a33985e106170"
+    },
+    {
+      "file": "steam-b2b87954.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/659c0e9407e6886ed3e27320db598274c0e352a2/ss_659c0e9407e6886ed3e27320db598274c0e352a2.1920x1080.jpg?t=1773135169",
+      "page": "https://store.steampowered.com/app/424840/",
+      "title": "Little Nightmares — screenshot 2",
+      "credit": "Tarsier Studios",
+      "license": "© Tarsier Studios — moodboard only",
+      "api": "steam",
+      "query": "Little Nightmares",
+      "generated": false,
+      "note": "Crisp vertical shadow cages and dramatic key lighting",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "b2b87954d393dc390d3186c2590dcc49518cba1b"
+    },
+    {
+      "file": "openverse-46833ea8.jpg",
+      "url": "https://live.staticflickr.com/3863/15176167245_78c0d218b2_b.jpg",
+      "page": "https://www.flickr.com/photos/93212986@N03/15176167245",
+      "title": "towards the light",
+      "credit": "Casey Hugelfink",
+      "license": "CC BY 2.0",
+      "api": "openverse",
+      "query": "night fog streetlamp bridge",
+      "generated": false,
+      "note": "Single warm lamp cutting through deep nocturnal mist",
+      "w": 1024,
+      "h": 1024,
+      "sha1": "46833ea8775470dcffa43b164fb3733eb7de473a",
+      "source": "flickr",
+      "attribution": "\"towards the light\" by Casey Hugelfink is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/."
+    },
+    {
+      "file": "openverse-19ada97f.jpg",
+      "url": "https://live.staticflickr.com/594/22453128638_2f007a2154_b.jpg",
+      "page": "https://www.flickr.com/photos/65583387@N04/22453128638",
+      "title": "November in Winterhude",
+      "credit": "dlerps",
+      "license": "CC BY-ND 2.0",
+      "api": "openverse",
+      "query": "night fog streetlamp bridge",
+      "generated": false,
+      "note": "Night fog over canal bridge with isolated golden lamp pools",
+      "w": 1024,
+      "h": 714,
+      "sha1": "19ada97fd3b756e8cbef154053c2848f203a130e",
+      "source": "flickr",
+      "attribution": "\"November in Winterhude\" by dlerps is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/."
+    },
+    {
+      "file": "steam-3af491ae.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304430/ss_d23769199f1e3d498f8293892f0456696458c717.1920x1080.jpg?t=1793958852",
+      "page": "https://store.steampowered.com/app/304430/",
+      "title": "INSIDE — screenshot 1",
+      "credit": "Playdead",
+      "license": "© Playdead — moodboard only",
+      "api": "steam",
+      "query": "INSIDE",
+      "generated": false,
+      "note": "High-contrast monochrome fog & stark silhouette readability",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "3af491ae40b7bb6d61622e7c5827d92124375f7c"
+    },
+    {
+      "file": "steam-4856c8ac.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304430/ss_b15d0a5c037198b5b9db6a82fedf5018f1b43de5.1920x1080.jpg?t=1793958852",
+      "page": "https://store.steampowered.com/app/304430/",
+      "title": "INSIDE — screenshot 2",
+      "credit": "Playdead",
+      "license": "© Playdead — moodboard only",
+      "api": "steam",
+      "query": "INSIDE",
+      "generated": false,
+      "note": "Sharp volumetric searchlight cone sweeping dark environment",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "4856c8aceb9b78aef8d9c35a5caa21a4c62ec845"
+    },
+    {
+      "file": "steam-f9169bea.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304430/ss_ebeba62a8d2141b4fd36760500529fb2d9a29190.1920x1080.jpg?t=1793958852",
+      "page": "https://store.steampowered.com/app/304430/",
+      "title": "INSIDE — screenshot 3",
+      "credit": "Playdead",
+      "license": "© Playdead — moodboard only",
+      "api": "steam",
+      "query": "INSIDE",
+      "generated": false,
+      "note": "Submerged dark ruins with eerie directional light beams",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "f9169beacbad57c8ab28ac5b0d85c997a880c796"
+    }
+  ],
+  "pros": [
+    "searchlight cones and bell ripples pop instantly"
+  ],
+  "cons": [
+    "dark shadows need strong rim light on cat silhouette"
+  ],
+  "dropped": [
+    {
+      "file": "steam-cb40167e.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403640/ss_f2206b92cfde7e2c63a106e35ddc847700a2f7d8.1920x1080.jpg?t=1750785918",
+      "sha1": "cb40167e3009742bac7381b0dad9c21a049eb100"
+    },
+    {
+      "file": "steam-2384cf61.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403640/ss_29982f240a3bca5bcf7f4a2150b88ea7de240df0.1920x1080.jpg?t=1750785918",
+      "sha1": "2384cf61f9ff42971a7c8e2a69797cc449d6a783"
+    },
+    {
+      "file": "steam-25b6fcbe.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403640/ss_4095dc87c8e6f8a3f6a12134e1e0f3bb3e9aa808.1920x1080.jpg?t=1750785918",
+      "sha1": "25b6fcbe91bf53055ad4d2d6388f2a7d82eb0060"
+    }
+  ]
+}

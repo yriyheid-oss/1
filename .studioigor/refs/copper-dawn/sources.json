@@ -1,0 +1,139 @@
+{
+  "title": "Copper Dawn Mist",
+  "text": "Rule: Dry high rooftops glow with verdigris & warm lantern amber; flooded canals sink into cool teal mist. Mood: nostalgic dawn after rain. Shape: Venetian gables, arched bridges, exposed gears. Color: verdigris, wet slate, amber lantern gold.",
+  "palette": [
+    "#3f7d70",
+    "#26353b",
+    "#8b5a3c",
+    "#f4a949",
+    "#ff5733"
+  ],
+  "tags": [
+    "Browser 3D",
+    "dawn mist",
+    "bloom",
+    "verdigris"
+  ],
+  "items": [
+    {
+      "file": "steam-6290bee5.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/ss_88e209a90c2039fa76bca6fa08c641365be38d50.1920x1080.jpg?t=1785424330",
+      "page": "https://store.steampowered.com/app/1332010/",
+      "title": "Stray — screenshot 1",
+      "credit": "BlueTwelve Studio",
+      "license": "© BlueTwelve Studio — moodboard only",
+      "api": "steam",
+      "query": "Stray",
+      "generated": false,
+      "note": "Warm interior amber light vs shadowed wooden surfaces",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "6290bee53fe5bba45c793c08d5927084c358c7a8"
+    },
+    {
+      "file": "steam-fe737353.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/ss_e8f0cbd5efdba352e89c4cfcee3fe991a1e1be8a.1920x1080.jpg?t=1785424330",
+      "page": "https://store.steampowered.com/app/1332010/",
+      "title": "Stray — screenshot 2",
+      "credit": "BlueTwelve Studio",
+      "license": "© BlueTwelve Studio — moodboard only",
+      "api": "steam",
+      "query": "Stray",
+      "generated": false,
+      "note": "Warm sign pools glowing over wet alley cobblestones",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "fe737353ee7f5d52161c0b20942afbb521f1e9ac"
+    },
+    {
+      "file": "steam-5ae88371.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/ss_2221af260c64362fdc835a9dca65f6f1d1192b25.1920x1080.jpg?t=1785424330",
+      "page": "https://store.steampowered.com/app/1332010/",
+      "title": "Stray — screenshot 3",
+      "credit": "BlueTwelve Studio",
+      "license": "© BlueTwelve Studio — moodboard only",
+      "api": "steam",
+      "query": "Stray",
+      "generated": false,
+      "note": "Pipe-balancing cat silhouette above misty vertical buildings",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "5ae883715e17efb977e9f36e73f34c11dae85a60"
+    },
+    {
+      "file": "openverse-f199354c.jpg",
+      "url": "https://live.staticflickr.com/4840/43994230560_6ccd380255_b.jpg",
+      "page": "https://www.flickr.com/photos/53359531@N04/43994230560",
+      "title": "Venetian paths 120(morning fog at Venice)",
+      "credit": "Maurizio Fecchio",
+      "license": "CC BY-NC-ND 2.0",
+      "api": "openverse",
+      "query": "venice canal morning fog",
+      "generated": false,
+      "note": "Cool teal morning canal mist with warm amber distant lights",
+      "w": 1023,
+      "h": 682,
+      "sha1": "f199354cea390a64ce8973b41421d0f0fdb74d5b",
+      "source": "flickr",
+      "attribution": "\"Venetian paths 120(morning fog at Venice)\" by Maurizio Fecchio is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/."
+    },
+    {
+      "file": "openverse-91b4a6ed.jpg",
+      "url": "https://live.staticflickr.com/7924/45586058105_fcc342de20_b.jpg",
+      "page": "https://www.flickr.com/photos/53359531@N04/45586058105",
+      "title": "Venetian paths 132(Ponte della Paglia)",
+      "credit": "Maurizio Fecchio",
+      "license": "CC BY-NC-ND 2.0",
+      "api": "openverse",
+      "query": "venice canal morning fog",
+      "generated": false,
+      "note": "Misty stone canal bridge with warm window light reflections",
+      "w": 1023,
+      "h": 682,
+      "sha1": "91b4a6edb245e57ac864f7115fbf334326ea21a9",
+      "source": "flickr",
+      "attribution": "\"Venetian paths 132(Ponte della Paglia)\" by Maurizio Fecchio is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/."
+    },
+    {
+      "file": "openverse-c7381c32.jpg",
+      "url": "https://live.staticflickr.com/3048/2914135677_218ce05935_b.jpg",
+      "page": "https://www.flickr.com/photos/29225114@N08/2914135677",
+      "title": "Cogs!",
+      "credit": "Sergei Golyshev (AFK during workdays)",
+      "license": "CC BY 2.0",
+      "api": "openverse",
+      "query": "brass gears steampunk machine",
+      "generated": false,
+      "note": "Oxidized brass cogs & warm metallic reflections",
+      "w": 1024,
+      "h": 683,
+      "sha1": "c7381c32714601693f61d9d1e5858524f6dc930d",
+      "source": "flickr",
+      "attribution": "\"Cogs!\" by Sergei Golyshev (AFK during workdays) is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/."
+    }
+  ],
+  "pros": [
+    "warm vs cold depth separation",
+    "great rooftop vs canal readability"
+  ],
+  "cons": [
+    "needs careful fog tuning so distant jumps stay readable"
+  ],
+  "dropped": [
+    {
+      "file": "steam-51366b35.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/ss_26e2d983948edfb911db3e0d2c3679900b4ef9fa.1920x1080.jpg?t=1728673518",
+      "sha1": "51366b3573e5c6e6089008d6cedb30e2fec6e664"
+    },
+    {
+      "file": "steam-999a973f.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/ss_c6f3fbf3e9f4cb1777462150203a7174608dfcd9.1920x1080.jpg?t=1728673518",
+      "sha1": "999a973fe9459a92dd37ba6d1ba3fb58b74aa4aa"
+    },
+    {
+      "file": "openverse-837b0a5b.jpg",
+      "url": "https://live.staticflickr.com/3130/3127235693_a537de0786.jpg",
+      "sha1": "837b0a5b231f6fc2d4e74cec3da995d31f3d729d"
+    }
+  ]
+}

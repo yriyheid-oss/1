@@ -1,0 +1,174 @@
+{
+  "title": "Engraved Blueprint Diorama",
+  "text": "Rule: Clean matte-shaded clockmaker miniature with crisp edge lines and glowing amber sound ripples. Mood: tactile horological precision. Shape: bevelled slabs, gear teeth, clean silhouettes. Color: slate, ivory, brushed brass, ember orange.",
+  "palette": [
+    "#1f242d",
+    "#d9d2c5",
+    "#c89b4f",
+    "#6a8d92",
+    "#ff6b35"
+  ],
+  "tags": [
+    "Browser 3D",
+    "stylized",
+    "high FPS",
+    "crisp edges"
+  ],
+  "items": [
+    {
+      "file": "steam-0dc8d734.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1927720/ss_319b7a1b2d7f915948b39f5a3a122ac7511215b5.1920x1080.jpg?t=1762967584",
+      "page": "https://store.steampowered.com/app/1927720/",
+      "title": "Monument Valley — screenshot 1",
+      "credit": "ustwo games",
+      "license": "© ustwo games — moodboard only",
+      "api": "steam",
+      "query": "Monument Valley",
+      "generated": false,
+      "note": "Minimalist architectural tower with sharp silhouette read",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "0dc8d734007fa36b86ecf7ba38427651c3cfab03"
+    },
+    {
+      "file": "steam-6fd7b3d6.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1927720/ss_0474efd930abd8f71baca1dd9536102c6d81df70.1920x1080.jpg?t=1762967584",
+      "page": "https://store.steampowered.com/app/1927720/",
+      "title": "Monument Valley — screenshot 2",
+      "credit": "ustwo games",
+      "license": "© ustwo games — moodboard only",
+      "api": "steam",
+      "query": "Monument Valley",
+      "generated": false,
+      "note": "Clean pastel-ivory stone slabs rising from misty clouds",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "6fd7b3d6ebc73e20d52ce3e889fbc513aad9d782"
+    },
+    {
+      "file": "steam-6b5d04bd.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1927720/ss_c3c31892e894f72d70f2d3ad02018678ba817093.1920x1080.jpg?t=1762967584",
+      "page": "https://store.steampowered.com/app/1927720/",
+      "title": "Monument Valley — screenshot 3",
+      "credit": "ustwo games",
+      "license": "© ustwo games — moodboard only",
+      "api": "steam",
+      "query": "Monument Valley",
+      "generated": false,
+      "note": "Floating isometric geometry and atmospheric depth separation",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "6b5d04bdea668d2cf03b4525dc344dab898c0431"
+    },
+    {
+      "file": "steam-ea384401.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757310/ss_f7cf5d40340dfcfc534daff63be314fdbb9e6817.1920x1080.jpg?t=1792068075",
+      "page": "https://store.steampowered.com/app/757310/",
+      "title": "Sable — screenshot 1",
+      "credit": "Shedworks",
+      "license": "© Shedworks — moodboard only",
+      "api": "steam",
+      "query": "Sable",
+      "generated": false,
+      "note": "Crisp inked outline edges on stylized matte surfaces",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "ea3844015fa217516a6367fef24d71fe897a66b0"
+    },
+    {
+      "file": "openverse-c992a548.jpg",
+      "url": "https://live.staticflickr.com/3154/2778223048_127054b7be_b.jpg",
+      "page": "https://www.flickr.com/photos/29225114@N08/2778223048",
+      "title": "vintage clockwork macro",
+      "credit": "Sergei Golyshev (AFK during workdays)",
+      "license": "CC BY-NC-SA 2.0",
+      "api": "openverse",
+      "query": "clockwork brass gears",
+      "generated": false,
+      "note": "Precision brushed brass and steel gear train layering",
+      "w": 1024,
+      "h": 682,
+      "sha1": "c992a54891c3349d713b3a645d52426a9f711b0f",
+      "source": "flickr",
+      "attribution": "\"vintage clockwork macro\" by Sergei Golyshev (AFK during workdays) is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/."
+    },
+    {
+      "file": "steam-89b48a65.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1291340/ss_989ff1808d9416c7b22da3e16ee54874697b1cea.1920x1080.jpg?t=1790002949",
+      "page": "https://store.steampowered.com/app/1291340/",
+      "title": "Townscaper — screenshot 1",
+      "credit": "Oskar Stålberg",
+      "license": "© Oskar Stålberg — moodboard only",
+      "api": "steam",
+      "query": "Townscaper",
+      "generated": false,
+      "note": "Compact waterfront town diorama with clean tile roofs",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "89b48a654b4b08cd3379178f3bd204d9250c36b2"
+    },
+    {
+      "file": "steam-ab6cbc76.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1291340/ss_fcd697b91c82dfd151954070ce20bda18fcb6475.1920x1080.jpg?t=1790002949",
+      "page": "https://store.steampowered.com/app/1291340/",
+      "title": "Townscaper — screenshot 2",
+      "credit": "Oskar Stålberg",
+      "license": "© Oskar Stålberg — moodboard only",
+      "api": "steam",
+      "query": "Townscaper",
+      "generated": false,
+      "note": "Stepped canal architecture over dark reflective water",
+      "w": 1920,
+      "h": 1080,
+      "sha1": "ab6cbc761040d6c549ae664af72bc94f8087f22b"
+    }
+  ],
+  "pros": [
+    "100% platforming readability and blazing WebGL performance"
+  ],
+  "cons": [
+    "less gritty wet-alley atmosphere"
+  ],
+  "dropped": [
+    {
+      "file": "wikimedia-cbf65911.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Antique_watch_with_stackfreed.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sha1": "cbf65911f3fc1140899e80a4f1d6a599ad323536"
+    },
+    {
+      "file": "steam-e43f05a0.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757310/ss_dbe1b07f58393b56c20e9ac031442e1e161fa989.1920x1080.jpg?t=1792068075",
+      "sha1": "e43f05a0d3055377cca028a2ae33004f4dfea14a"
+    },
+    {
+      "file": "steam-eeda11db.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757310/ss_cad83dc56ce2d4e690df7d31eac8346db25baa9d.1920x1080.jpg?t=1792068075",
+      "sha1": "eeda11dbb244e9f58533cdd8c6327ff2444cfef1"
+    },
+    {
+      "file": "steam-06bfd997.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1931770/ss_adcaa7de0b90bc02a927ec7119f889a0834e8484.1920x1080.jpg?t=1774006124",
+      "sha1": "06bfd9979517b719ea411493ed2f78b3f431006f"
+    },
+    {
+      "file": "steam-3103cfeb.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1931770/ss_d194cfba045634d86c99aec5ed7ecbf7270cb8a2.1920x1080.jpg?t=1774006124",
+      "sha1": "3103cfeb1c46a02af6d7158921654faf928f07a2"
+    },
+    {
+      "file": "steam-bc7aa2b7.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1931770/ss_0461966d2cf288b631165c5e1e00399483bb52c7.1920x1080.jpg?t=1774006124",
+      "sha1": "bc7aa2b7b7e4fdf98609e449f90a7fbea5d60d23"
+    },
+    {
+      "file": "steam-d043aa25.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1931770/ss_0c7b55a542bab74ccb3bbab18346c0f68296ebf4.1920x1080.jpg?t=1774006124",
+      "sha1": "d043aa252e34cd2bd1b259eb2c865448a4401b05"
+    },
+    {
+      "file": "openverse-837b0a5b.jpg",
+      "url": "https://live.staticflickr.com/3130/3127235693_a537de0786.jpg",
+      "sha1": "837b0a5b231f6fc2d4e74cec3da995d31f3d729d"
+    }
+  ]
+}

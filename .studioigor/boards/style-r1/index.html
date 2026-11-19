@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en" style="color-scheme:dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sunken Chime — Style Round 1</title>
+<style>
+:root{--bg:#111214;--panel:#1a1b1f;--line:#2a2c31;--fg:#e9e9ea;--dim:#9a9ba0;--acc:#e8a33d;--ok:#57c48a;--bad:#ec6a5e;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:7rem}
+header{padding:2rem 1.25rem 1rem;max-width:88rem;margin:0 auto}
+h1{margin:0 0 .3rem;font-size:1.7rem;letter-spacing:-.01em}
+.sub{color:var(--dim);margin:0 0 .6rem}
+.q{font-size:1.1rem;margin:.6rem 0 0;font-weight:600}
+main{max-width:88rem;margin:0 auto;padding:0 1.25rem}
+.opt{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.1rem 1.2rem;margin:0 0 1.2rem;transition:border-color .15s}
+.opt.sel{border-color:var(--acc);box-shadow:0 0 0 1px var(--acc) inset}
+.ohd{display:flex;gap:.8rem;align-items:flex-start;flex-wrap:wrap}
+.ohd h2{margin:0;font-size:1.25rem;flex:1 1 20rem}
+.pick{border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:999px;padding:.4rem 1rem;font:inherit;cursor:pointer}
+.opt.sel .pick{background:var(--acc);border-color:var(--acc);color:#111}
+.tags{margin:.35rem 0 0}.tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:0 .55rem;margin:0 .3rem .3rem 0;font-size:.8rem;color:var(--dim)}
+.text{margin:.6rem 0 .2rem;white-space:pre-wrap;max-width:60rem}
+.pal{display:flex;gap:.35rem;margin:.6rem 0 1.7rem;flex-wrap:wrap}
+.sw{width:3.2rem;height:2.2rem;border-radius:6px;position:relative;border:1px solid var(--line)}
+.sw span{position:absolute;bottom:-1.25rem;left:0;font-size:.68rem;color:var(--dim);font-family:ui-monospace,Menlo,monospace}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin:.6rem 0;max-width:60rem}
+.pc ul{margin:.2rem 0;padding-left:1.1rem}.pc h4{margin:0;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--dim)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.6rem;margin-top:.8rem}
+.m{position:relative;border-radius:10px;overflow:hidden;background:#000;border:2px solid transparent;aspect-ratio:16/10}
+.m.like{border-color:var(--ok)}.m.dislike{border-color:var(--bad);opacity:.55}
+.m img,.m video{width:100%;height:100%;object-fit:cover;display:block;cursor:zoom-in}
+.m .bar{position:absolute;left:0;right:0;bottom:0;display:flex;gap:.3rem;padding:.35rem;background:linear-gradient(transparent,rgba(0,0,0,.75))}
+.m .bar button{flex:0 0 auto;border:0;border-radius:6px;padding:.2rem .55rem;font:600 .78rem/1.4 inherit;cursor:pointer;background:rgba(255,255,255,.14);color:#fff}
+.m.like .b-like{background:var(--ok);color:#06140c}.m.dislike .b-dis{background:var(--bad);color:#1a0503}
+.m .cap{flex:1;color:#ddd;font-size:.75rem;align-self:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gen{position:absolute;top:.4rem;left:.4rem;background:rgba(0,0,0,.7);color:#fff;font-size:.7rem;padding:.05rem .45rem;border-radius:4px}
+textarea{width:100%;min-height:3.2rem;margin-top:.8rem;background:transparent;color:var(--fg);border:1px solid var(--line);border-radius:10px;padding:.55rem .7rem;font:inherit;resize:vertical}
+footer{position:fixed;left:0;right:0;bottom:0;background:var(--panel);border-top:1px solid var(--line);padding:.7rem 1.25rem}
+.fin{max-width:88rem;margin:0 auto;display:flex;gap:.8rem;align-items:center;flex-wrap:wrap}
+.fin textarea{margin:0;flex:1 1 20rem;min-height:2.6rem}
+.send{background:var(--acc);color:#111;border:0;border-radius:10px;padding:.7rem 1.4rem;font:700 1rem inherit;cursor:pointer}
+.stat{color:var(--dim);font-size:.85rem}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;flex-direction:column;z-index:10;padding:1rem}
+#lb.on{display:flex}#lb img,#lb video{max-width:96vw;max-height:84vh;object-fit:contain}
+#lb .meta{color:#ccc;font-size:.85rem;margin-top:.6rem;text-align:center;max-width:70rem}
+#lb a{color:var(--acc)}
+#ov{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;z-index:11;padding:1rem}
+#ov.on{display:flex}#ov .box{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1.4rem;max-width:44rem;width:100%}
+#ov textarea{min-height:12rem;font-family:ui-monospace,Menlo,monospace;font-size:.8rem}
+@media (max-width:40rem){.pc{grid-template-columns:1fr}.grid{grid-template-columns:repeat(auto-fill,minmax(10rem,1fr))}}
+</style>
+</head>
+<body>
+<header><h1 id="t"></h1><p class="sub" id="s"></p><p class="q" id="qq"></p></header>
+<main id="opts"></main>
+<footer><div class="fin">
+  <textarea id="gc" placeholder="General comment: what to take, what to drop, what's missing…"></textarea>
+  <span class="stat" id="stat"></span>
+  <button class="send" id="send">Send</button>
+</div></footer>
+<div id="lb"></div>
+<div id="ov"><div class="box" id="ovb"></div></div>
+<script type="application/json" id="data">{"title": "Sunken Chime — Style Round 1", "subtitle": "Flooded clockwork city rooftops · 4 visual directions", "question": "Which visual direction fits Sunken Chime best?", "mode": "single", "options": [{"id": "copper-dawn", "title": "Copper Dawn Mist", "text": "Rule: Dry high rooftops glow with verdigris & warm lantern amber; flooded canals sink into cool teal mist. Mood: nostalgic dawn after rain. Shape: Venetian gables, arched bridges, exposed gears. Color: verdigris, wet slate, amber lantern gold.", "palette": ["#3f7d70", "#26353b", "#8b5a3c", "#f4a949", "#ff5733"], "tags": ["Browser 3D", "dawn mist", "bloom", "verdigris"], "pros": ["warm vs cold depth separation", "great rooftop vs canal readability"], "cons": ["needs careful fog tuning so distant jumps stay readable"], "media": [{"src": "../../refs/copper-dawn/steam-6290bee5.jpg", "caption": "Warm interior amber light vs shadowed wooden surfaces", "source": "https://store.steampowered.com/app/1332010/", "credit": "BlueTwelve Studio", "license": "© BlueTwelve Studio — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/copper-dawn/steam-fe737353.jpg", "caption": "Warm sign pools glowing over wet alley cobblestones", "source": "https://store.steampowered.com/app/1332010/", "credit": "BlueTwelve Studio", "license": "© BlueTwelve Studio — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/copper-dawn/steam-5ae88371.jpg", "caption": "Pipe-balancing cat silhouette above misty vertical buildings", "source": "https://store.steampowered.com/app/1332010/", "credit": "BlueTwelve Studio", "license": "© BlueTwelve Studio — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/copper-dawn/openverse-f199354c.jpg", "caption": "Cool teal morning canal mist with warm amber distant lights", "source": "https://www.flickr.com/photos/53359531@N04/43994230560", "credit": "Maurizio Fecchio", "license": "CC BY-NC-ND 2.0", "generated": false, "kind": "image"}, {"src": "../../refs/copper-dawn/openverse-91b4a6ed.jpg", "caption": "Misty stone canal bridge with warm window light reflections", "source": "https://www.flickr.com/photos/53359531@N04/45586058105", "credit": "Maurizio Fecchio", "license": "CC BY-NC-ND 2.0", "generated": false, "kind": "image"}, {"src": "../../refs/copper-dawn/openverse-c7381c32.jpg", "caption": "Oxidized brass cogs & warm metallic reflections", "source": "https://www.flickr.com/photos/29225114@N08/2914135677", "credit": "Sergei Golyshev (AFK during workdays)", "license": "CC BY 2.0", "generated": false, "kind": "image"}]}, {"id": "moonlit-brass", "title": "Moonlit Chiaroscuro Brass", "text": "Rule: Cold indigo moonlight in the air vs sharp golden searchlights and chimes on wet brass. Mood: tense nocturnal stealth. Shape: tall clock towers, sharp shadow pools, glowing cat rim light. Color: indigo, gunmetal, moon blue, spotlight gold.", "palette": ["#101729", "#1e2738", "#4a6a8a", "#7eb2dd", "#ffc845"], "tags": ["Browser 3D", "night stealth", "high contrast", "fresnel"], "pros": ["searchlight cones and bell ripples pop instantly"], "cons": ["dark shadows need strong rim light on cat silhouette"], "media": [{"src": "../../refs/moonlit-brass/steam-7196a5ec.jpg", "caption": "Tiny hero lit by warm pool inside cavernous shadow", "source": "https://store.steampowered.com/app/424840/", "credit": "Tarsier Studios", "license": "© Tarsier Studios — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/moonlit-brass/steam-b2b87954.jpg", "caption": "Crisp vertical shadow cages and dramatic key lighting", "source": "https://store.steampowered.com/app/424840/", "credit": "Tarsier Studios", "license": "© Tarsier Studios — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/moonlit-brass/openverse-46833ea8.jpg", "caption": "Single warm lamp cutting through deep nocturnal mist", "source": "https://www.flickr.com/photos/93212986@N03/15176167245", "credit": "Casey Hugelfink", "license": "CC BY 2.0", "generated": false, "kind": "image"}, {"src": "../../refs/moonlit-brass/openverse-19ada97f.jpg", "caption": "Night fog over canal bridge with isolated golden lamp pools", "source": "https://www.flickr.com/photos/65583387@N04/22453128638", "credit": "dlerps", "license": "CC BY-ND 2.0", "generated": false, "kind": "image"}, {"src": "../../refs/moonlit-brass/steam-3af491ae.jpg", "caption": "High-contrast monochrome fog & stark silhouette readability", "source": "https://store.steampowered.com/app/304430/", "credit": "Playdead", "license": "© Playdead — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/moonlit-brass/steam-4856c8ac.jpg", "caption": "Sharp volumetric searchlight cone sweeping dark environment", "source": "https://store.steampowered.com/app/304430/", "credit": "Playdead", "license": "© Playdead — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/moonlit-brass/steam-f9169bea.jpg", "caption": "Submerged dark ruins with eerie directional light beams", "source": "https://store.steampowered.com/app/304430/", "credit": "Playdead", "license": "© Playdead — moodboard only", "generated": false, "kind": "image"}]}, {"id": "sunlit-ruins", "title": "Ghibli Sunlit Ruins", "text": "Rule: Ancient brass wears moss and sunlit salt; cold Watch-Owl steel contrasts warm terracotta roofs. Mood: bittersweet morning wonder. Shape: rounded terracotta tiles, copper domes, mossy waterwheels. Color: cream, terracotta, cerulean, copper.", "palette": ["#ede3cc", "#c96a4b", "#558c7d", "#5c9ec9", "#d93b58"], "tags": ["Browser 3D", "stylized", "sunlit", "terracotta"], "pros": ["distinct from dark cyberpunk", "warm inviting rooftops"], "cons": ["searchlights read softer in bright daylight"], "media": [{"src": "../../refs/sunlit-ruins/steam-a9b41a3b.jpg", "caption": "Crisp sunlit Mediterranean whitewash vs warm earth tones", "source": "https://store.steampowered.com/app/493200/", "credit": "Tequila Works, QLOC", "license": "© Tequila Works, QLOC — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/sunlit-ruins/steam-46245560.jpg", "caption": "Clean stylized stone tower overlooking bright cerulean canal", "source": "https://store.steampowered.com/app/493200/", "credit": "Tequila Works, QLOC", "license": "© Tequila Works, QLOC — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/sunlit-ruins/steam-142f8713.jpg", "caption": "Painterly Ghibli-like cliffside vegetation and layered depth", "source": "https://store.steampowered.com/app/1608230/", "credit": "Wishfully", "license": "© Wishfully — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/sunlit-ruins/steam-20d09190.jpg", "caption": "Bright turquoise morning sky framing small companion silhouettes", "source": "https://store.steampowered.com/app/1608230/", "credit": "Wishfully", "license": "© Wishfully — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/sunlit-ruins/openverse-c654bc29.jpg", "caption": "Bell tower rising over warm red-tile Venetian roofs", "source": "https://www.flickr.com/photos/57673765@N00/8531147796", "credit": "chericbaker", "license": "CC BY-NC-SA 2.0", "generated": false, "kind": "image"}, {"src": "../../refs/sunlit-ruins/openverse-2648c4bc.jpg", "caption": "Layered sunlit terracotta rooftop ridges & chimneys", "source": "https://www.flickr.com/photos/15011735@N00/1992535812", "credit": "jehr", "license": "CC BY-NC-SA 2.0", "generated": false, "kind": "image"}, {"src": "../../refs/sunlit-ruins/openverse-aec51aee.jpg", "caption": "Moss-overgrown wooden & iron waterwheel in green shade", "source": "https://www.flickr.com/photos/75612671@N03/8893008562", "credit": "enneafive", "license": "CC BY 2.0", "generated": false, "kind": "image"}]}, {"id": "clockwork-diorama", "title": "Engraved Blueprint Diorama", "text": "Rule: Clean matte-shaded clockmaker miniature with crisp edge lines and glowing amber sound ripples. Mood: tactile horological precision. Shape: bevelled slabs, gear teeth, clean silhouettes. Color: slate, ivory, brushed brass, ember orange.", "palette": ["#1f242d", "#d9d2c5", "#c89b4f", "#6a8d92", "#ff6b35"], "tags": ["Browser 3D", "stylized", "high FPS", "crisp edges"], "pros": ["100% platforming readability and blazing WebGL performance"], "cons": ["less gritty wet-alley atmosphere"], "media": [{"src": "../../refs/clockwork-diorama/steam-0dc8d734.jpg", "caption": "Minimalist architectural tower with sharp silhouette read", "source": "https://store.steampowered.com/app/1927720/", "credit": "ustwo games", "license": "© ustwo games — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/clockwork-diorama/steam-6fd7b3d6.jpg", "caption": "Clean pastel-ivory stone slabs rising from misty clouds", "source": "https://store.steampowered.com/app/1927720/", "credit": "ustwo games", "license": "© ustwo games — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/clockwork-diorama/steam-6b5d04bd.jpg", "caption": "Floating isometric geometry and atmospheric depth separation", "source": "https://store.steampowered.com/app/1927720/", "credit": "ustwo games", "license": "© ustwo games — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/clockwork-diorama/steam-ea384401.jpg", "caption": "Crisp inked outline edges on stylized matte surfaces", "source": "https://store.steampowered.com/app/757310/", "credit": "Shedworks", "license": "© Shedworks — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/clockwork-diorama/openverse-c992a548.jpg", "caption": "Precision brushed brass and steel gear train layering", "source": "https://www.flickr.com/photos/29225114@N08/2778223048", "credit": "Sergei Golyshev (AFK during workdays)", "license": "CC BY-NC-SA 2.0", "generated": false, "kind": "image"}, {"src": "../../refs/clockwork-diorama/steam-89b48a65.jpg", "caption": "Compact waterfront town diorama with clean tile roofs", "source": "https://store.steampowered.com/app/1291340/", "credit": "Oskar Stålberg", "license": "© Oskar Stålberg — moodboard only", "generated": false, "kind": "image"}, {"src": "../../refs/clockwork-diorama/steam-ab6cbc76.jpg", "caption": "Stepped canal architecture over dark reflective water", "source": "https://store.steampowered.com/app/1291340/", "credit": "Oskar Stålberg", "license": "© Oskar Stålberg — moodboard only", "generated": false, "kind": "image"}]}]}</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const KEY = 'studioigor-board:' + location.pathname;
+let S = {selected: [], reactions: {}, comments: {}, comment: ''};
+try { const v = localStorage.getItem(KEY); if (v) S = Object.assign(S, JSON.parse(v)); } catch (e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} stat(); };
+const el = (t, c, h) => { const e = document.createElement(t); if (c) e.className = c; if (h != null) e.textContent = h; return e; };
+document.getElementById('t').textContent = D.title || '';
+document.getElementById('s').textContent = D.subtitle || '';
+document.getElementById('qq').textContent = D.question || '';
+document.title = D.title || 'Board';
+const flat = [];
+const box = document.getElementById('opts');
+(D.options || []).forEach(o => {
+  const c = el('section', 'opt'); c.dataset.id = o.id;
+  const hd = el('div', 'ohd'); hd.appendChild(el('h2', '', o.title));
+  if (D.mode !== 'none') {
+    const b = el('button', 'pick', D.mode === 'multi' ? 'Mark' : 'Choose');
+    b.onclick = () => {
+      if (D.mode === 'multi') S.selected = S.selected.includes(o.id) ? S.selected.filter(x => x !== o.id) : [...S.selected, o.id];
+      else S.selected = S.selected.includes(o.id) ? [] : [o.id];
+      paint(); save();
+    };
+    hd.appendChild(b);
+  }
+  c.appendChild(hd);
+  if (o.tags && o.tags.length) { const t = el('div', 'tags'); o.tags.forEach(x => t.appendChild(el('span', 'tag', x))); c.appendChild(t); }
+  if (o.text) c.appendChild(el('p', 'text', o.text));
+  if (o.palette && o.palette.length) {
+    const p = el('div', 'pal');
+    o.palette.forEach(h => { const w = el('div', 'sw'); w.style.background = h; w.appendChild(el('span', '', h)); p.appendChild(w); });
+    c.appendChild(p);
+  }
+  if ((o.pros && o.pros.length) || (o.cons && o.cons.length)) {
+    const pc = el('div', 'pc');
+    [['Pros', o.pros || []], ['Cons', o.cons || []]].forEach(([h, l]) => {
+      const d = el('div'); d.appendChild(el('h4', '', h)); const u = el('ul'); l.forEach(x => u.appendChild(el('li', '', x))); d.appendChild(u); pc.appendChild(d);
+    });
+    c.appendChild(pc);
+  }
+  if (o.media && o.media.length) {
+    const g = el('div', 'grid');
+    o.media.forEach(m => {
+      const idx = flat.length; flat.push(m);
+      const key = m.src;
+      const w = el('div', 'm'); w.dataset.key = key;
+      const v = m.kind === 'video' ? el('video') : el('img');
+      if (m.kind === 'video') { v.muted = true; v.loop = true; v.playsInline = true; v.autoplay = true; }
+      else v.loading = 'lazy';
+      v.src = m.src; v.alt = m.caption || ''; v.onclick = () => lb(idx);
+      w.appendChild(v);
+      if (m.generated) w.appendChild(el('span', 'gen', 'generated'));
+      const bar = el('div', 'bar');
+      const bl = el('button', 'b-like', 'Like'); bl.onclick = () => react(key, 'like');
+      const bd = el('button', 'b-dis', 'Not it'); bd.onclick = () => react(key, 'dislike');
+      bar.appendChild(bl); bar.appendChild(bd); bar.appendChild(el('span', 'cap', m.caption || ''));
+      w.appendChild(bar); g.appendChild(w);
+    });
+    c.appendChild(g);
+  }
+  const ta = el('textarea'); ta.placeholder = 'Comment on option "' + o.title + '"';
+  ta.value = S.comments[o.id] || ''; ta.oninput = () => { S.comments[o.id] = ta.value; save(); };
+  c.appendChild(ta);
+  box.appendChild(c);
+});
+const gc = document.getElementById('gc'); gc.value = S.comment || ''; gc.oninput = () => { S.comment = gc.value; save(); };
+function react(k, v) { S.reactions[k] = S.reactions[k] === v ? undefined : v; if (!S.reactions[k]) delete S.reactions[k]; paint(); save(); }
+function paint() {
+  document.querySelectorAll('.opt').forEach(c => c.classList.toggle('sel', S.selected.includes(c.dataset.id)));
+  document.querySelectorAll('.m').forEach(w => { const r = S.reactions[w.dataset.key]; w.classList.toggle('like', r === 'like'); w.classList.toggle('dislike', r === 'dislike'); });
+}
+function stat() {
+  const r = Object.values(S.reactions);
+  document.getElementById('stat').textContent = 'Selected: ' + S.selected.length + ' · liked: ' + r.filter(x => x === 'like').length + ' · not it: ' + r.filter(x => x === 'dislike').length;
+}
+let cur = -1;
+function lb(i) {
+  cur = i; const m = flat[i]; const L = document.getElementById('lb'); L.innerHTML = '';
+  const v = m.kind === 'video' ? el('video') : el('img'); v.src = m.src;
+  if (m.kind === 'video') { v.controls = true; v.autoplay = true; v.loop = true; }
+  L.appendChild(v);
+  const meta = el('div', 'meta');
+  meta.appendChild(document.createTextNode([m.caption, m.credit, m.license, m.generated ? 'generated' : ''].filter(Boolean).join(' · ') + ' '));
+  if (m.source) { const a = el('a', '', 'source'); a.href = m.source; a.target = '_blank'; a.rel = 'noopener'; meta.appendChild(a); }
+  meta.appendChild(el('div', '', '← → browse · Esc close · L like · D not it'));
+  L.appendChild(meta); L.classList.add('on');
+}
+document.getElementById('lb').onclick = e => { if (e.target.id === 'lb') { e.currentTarget.classList.remove('on'); cur = -1; } };
+document.addEventListener('keydown', e => {
+  if (cur < 0) return;
+  if (e.key === 'Escape') { document.getElementById('lb').classList.remove('on'); cur = -1; }
+  if (e.key === 'ArrowRight') lb((cur + 1) % flat.length);
+  if (e.key === 'ArrowLeft') lb((cur - 1 + flat.length) % flat.length);
+  if (e.key === 'l' || e.key === 'L' || e.key === '\u0434') react(flat[cur].src, 'like');
+  if (e.key === 'd' || e.key === 'D' || e.key === '\u0432') react(flat[cur].src, 'dislike');
+});
+function overlay(nodes) { const b = document.getElementById('ovb'); b.innerHTML = ''; nodes.forEach(n => b.appendChild(n)); document.getElementById('ov').classList.add('on'); }
+document.getElementById('ov').onclick = e => { if (e.target.id === 'ov') e.currentTarget.classList.remove('on'); };
+document.getElementById('send').onclick = async () => {
+  const payload = {board: D.title, selected: S.selected, reactions: S.reactions, comments: S.comments, comment: S.comment};
+  try {
+    const r = await fetch('/api/feedback', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(payload)});
+    if (!r.ok) throw new Error(r.status);
+    overlay([el('h2', '', 'Sent'), el('p', '', 'The agent got the feedback. You can go back to the terminal.')]);
+  } catch (e) {
+    const ta = el('textarea'); ta.value = JSON.stringify(payload, null, 2);
+    const cp = el('button', 'send', 'Copy'); cp.onclick = () => { ta.select(); try { navigator.clipboard.writeText(ta.value); } catch (x) { document.execCommand('copy'); } cp.textContent = 'Copied'; };
+    overlay([el('h2', '', 'The board server is not running'), el('p', '', 'Copy the feedback and paste it into the chat with the agent.'), ta, cp]);
+  }
+};
+paint(); stat();
+</script>
+</body>
+</html>
